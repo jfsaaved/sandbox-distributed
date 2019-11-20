@@ -3,7 +3,7 @@ applications:
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
   - route: allocations-pal-jfsaaved.cfapps.io
-  memory: 1G
+  memory: 150MB
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://registration-pal-jfsaaved.cfapps.io
